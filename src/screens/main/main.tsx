@@ -9,9 +9,9 @@ import Footer from "./Footer";
 
 const Main = () => {
   return (
-    <div className="bg-gray-100 h-screen">
+    <div className="bg-gray-100 flex flex-col h-screen">
       <Navbar />
-      <main className="bg-gray-700 size-full">
+      <main className="bg-gray-700 flex-grow">
         <Hero />
         <About />
         <Resume />
